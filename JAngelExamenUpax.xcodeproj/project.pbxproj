@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB0699CB2995530900A85C6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0699CA2995530900A85C6C /* AppDelegate.swift */; };
+		FB0699CD2995530900A85C6C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0699CC2995530900A85C6C /* SceneDelegate.swift */; };
+		FB0699D22995530900A85C6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB0699D02995530900A85C6C /* Main.storyboard */; };
+		FB0699D42995530900A85C6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB0699D32995530900A85C6C /* Assets.xcassets */; };
+		FB0699D72995530900A85C6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB0699D52995530900A85C6C /* LaunchScreen.storyboard */; };
+		FB0699E22995530A00A85C6C /* JAngelExamenUpaxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0699E12995530A00A85C6C /* JAngelExamenUpaxTests.swift */; };
+		FB0699EC2995530A00A85C6C /* JAngelExamenUpaxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0699EB2995530A00A85C6C /* JAngelExamenUpaxUITests.swift */; };
+		FB0699EE2995530A00A85C6C /* JAngelExamenUpaxUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0699ED2995530A00A85C6C /* JAngelExamenUpaxUITestsLaunchTests.swift */; };
+		FB0699FF2995553600A85C6C /* UpaxTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0699FE2995553600A85C6C /* UpaxTableViewController.swift */; };
+		FB069A01299575CA00A85C6C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB069A00299575CA00A85C6C /* ViewController.swift */; };
+		FB069A03299581C500A85C6C /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB069A02299581C500A85C6C /* ImageViewController.swift */; };
+		FB069A05299586B200A85C6C /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB069A04299586B200A85C6C /* data.swift */; };
+		FB069A072995878B00A85C6C /* ConsumoApiViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB069A062995878B00A85C6C /* ConsumoApiViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB0699DE2995530A00A85C6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB0699BF2995530900A85C6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB0699C62995530900A85C6C;
+			remoteInfo = JAngelExamenUpax;
+		};
+		FB0699E82995530A00A85C6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB0699BF2995530900A85C6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB0699C62995530900A85C6C;
+			remoteInfo = JAngelExamenUpax;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB0699C72995530900A85C6C /* JAngelExamenUpax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JAngelExamenUpax.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB0699CA2995530900A85C6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB0699CC2995530900A85C6C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FB0699D12995530900A85C6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB0699D32995530900A85C6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB0699D62995530900A85C6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB0699D82995530900A85C6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB0699DD2995530A00A85C6C /* JAngelExamenUpaxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JAngelExamenUpaxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB0699E12995530A00A85C6C /* JAngelExamenUpaxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JAngelExamenUpaxTests.swift; sourceTree = "<group>"; };
+		FB0699E72995530A00A85C6C /* JAngelExamenUpaxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JAngelExamenUpaxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB0699EB2995530A00A85C6C /* JAngelExamenUpaxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JAngelExamenUpaxUITests.swift; sourceTree = "<group>"; };
+		FB0699ED2995530A00A85C6C /* JAngelExamenUpaxUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JAngelExamenUpaxUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FB0699FE2995553600A85C6C /* UpaxTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpaxTableViewController.swift; sourceTree = "<group>"; };
+		FB069A00299575CA00A85C6C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB069A02299581C500A85C6C /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		FB069A04299586B200A85C6C /* data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
+		FB069A062995878B00A85C6C /* ConsumoApiViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsumoApiViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB0699C42995530900A85C6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0699DA2995530A00A85C6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0699E42995530A00A85C6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB0699BE2995530900A85C6C = {
+			isa = PBXGroup;
+			children = (
+				FB0699C92995530900A85C6C /* JAngelExamenUpax */,
+				FB0699E02995530A00A85C6C /* JAngelExamenUpaxTests */,
+				FB0699EA2995530A00A85C6C /* JAngelExamenUpaxUITests */,
+				FB0699C82995530900A85C6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB0699C82995530900A85C6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB0699C72995530900A85C6C /* JAngelExamenUpax.app */,
+				FB0699DD2995530A00A85C6C /* JAngelExamenUpaxTests.xctest */,
+				FB0699E72995530A00A85C6C /* JAngelExamenUpaxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB0699C92995530900A85C6C /* JAngelExamenUpax */ = {
+			isa = PBXGroup;
+			children = (
+				FB0699FD299554B000A85C6C /* Controller */,
+				FB0699FC299554A400A85C6C /* Model */,
+				FB0699FB2995549A00A85C6C /* ViewModel */,
+				FB0699FA2995549300A85C6C /* View */,
+				FB0699D32995530900A85C6C /* Assets.xcassets */,
+				FB0699D82995530900A85C6C /* Info.plist */,
+			);
+			path = JAngelExamenUpax;
+			sourceTree = "<group>";
+		};
+		FB0699E02995530A00A85C6C /* JAngelExamenUpaxTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB0699E12995530A00A85C6C /* JAngelExamenUpaxTests.swift */,
+			);
+			path = JAngelExamenUpaxTests;
+			sourceTree = "<group>";
+		};
+		FB0699EA2995530A00A85C6C /* JAngelExamenUpaxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB0699EB2995530A00A85C6C /* JAngelExamenUpaxUITests.swift */,
+				FB0699ED2995530A00A85C6C /* JAngelExamenUpaxUITestsLaunchTests.swift */,
+			);
+			path = JAngelExamenUpaxUITests;
+			sourceTree = "<group>";
+		};
+		FB0699FA2995549300A85C6C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FB0699D02995530900A85C6C /* Main.storyboard */,
+				FB0699D52995530900A85C6C /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FB0699FB2995549A00A85C6C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FB0699CA2995530900A85C6C /* AppDelegate.swift */,
+				FB0699CC2995530900A85C6C /* SceneDelegate.swift */,
+				FB069A062995878B00A85C6C /* ConsumoApiViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FB0699FC299554A400A85C6C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FB069A04299586B200A85C6C /* data.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FB0699FD299554B000A85C6C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FB0699FE2995553600A85C6C /* UpaxTableViewController.swift */,
+				FB069A00299575CA00A85C6C /* ViewController.swift */,
+				FB069A02299581C500A85C6C /* ImageViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB0699C62995530900A85C6C /* JAngelExamenUpax */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB0699F12995530A00A85C6C /* Build configuration list for PBXNativeTarget "JAngelExamenUpax" */;
+			buildPhases = (
+				FB0699C32995530900A85C6C /* Sources */,
+				FB0699C42995530900A85C6C /* Frameworks */,
+				FB0699C52995530900A85C6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JAngelExamenUpax;
+			productName = JAngelExamenUpax;
+			productReference = FB0699C72995530900A85C6C /* JAngelExamenUpax.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB0699DC2995530A00A85C6C /* JAngelExamenUpaxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB0699F42995530A00A85C6C /* Build configuration list for PBXNativeTarget "JAngelExamenUpaxTests" */;
+			buildPhases = (
+				FB0699D92995530A00A85C6C /* Sources */,
+				FB0699DA2995530A00A85C6C /* Frameworks */,
+				FB0699DB2995530A00A85C6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB0699DF2995530A00A85C6C /* PBXTargetDependency */,
+			);
+			name = JAngelExamenUpaxTests;
+			productName = JAngelExamenUpaxTests;
+			productReference = FB0699DD2995530A00A85C6C /* JAngelExamenUpaxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB0699E62995530A00A85C6C /* JAngelExamenUpaxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB0699F72995530A00A85C6C /* Build configuration list for PBXNativeTarget "JAngelExamenUpaxUITests" */;
+			buildPhases = (
+				FB0699E32995530A00A85C6C /* Sources */,
+				FB0699E42995530A00A85C6C /* Frameworks */,
+				FB0699E52995530A00A85C6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB0699E92995530A00A85C6C /* PBXTargetDependency */,
+			);
+			name = JAngelExamenUpaxUITests;
+			productName = JAngelExamenUpaxUITests;
+			productReference = FB0699E72995530A00A85C6C /* JAngelExamenUpaxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB0699BF2995530900A85C6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					FB0699C62995530900A85C6C = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					FB0699DC2995530A00A85C6C = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = FB0699C62995530900A85C6C;
+					};
+					FB0699E62995530A00A85C6C = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = FB0699C62995530900A85C6C;
+					};
+				};
+			};
+			buildConfigurationList = FB0699C22995530900A85C6C /* Build configuration list for PBXProject "JAngelExamenUpax" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB0699BE2995530900A85C6C;
+			productRefGroup = FB0699C82995530900A85C6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB0699C62995530900A85C6C /* JAngelExamenUpax */,
+				FB0699DC2995530A00A85C6C /* JAngelExamenUpaxTests */,
+				FB0699E62995530A00A85C6C /* JAngelExamenUpaxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB0699C52995530900A85C6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB0699D72995530900A85C6C /* LaunchScreen.storyboard in Resources */,
+				FB0699D42995530900A85C6C /* Assets.xcassets in Resources */,
+				FB0699D22995530900A85C6C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0699DB2995530A00A85C6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0699E52995530A00A85C6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB0699C32995530900A85C6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB0699FF2995553600A85C6C /* UpaxTableViewController.swift in Sources */,
+				FB069A05299586B200A85C6C /* data.swift in Sources */,
+				FB0699CB2995530900A85C6C /* AppDelegate.swift in Sources */,
+				FB069A072995878B00A85C6C /* ConsumoApiViewModel.swift in Sources */,
+				FB069A03299581C500A85C6C /* ImageViewController.swift in Sources */,
+				FB069A01299575CA00A85C6C /* ViewController.swift in Sources */,
+				FB0699CD2995530900A85C6C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0699D92995530A00A85C6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB0699E22995530A00A85C6C /* JAngelExamenUpaxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0699E32995530A00A85C6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB0699EC2995530A00A85C6C /* JAngelExamenUpaxUITests.swift in Sources */,
+				FB0699EE2995530A00A85C6C /* JAngelExamenUpaxUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB0699DF2995530A00A85C6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB0699C62995530900A85C6C /* JAngelExamenUpax */;
+			targetProxy = FB0699DE2995530A00A85C6C /* PBXContainerItemProxy */;
+		};
+		FB0699E92995530A00A85C6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB0699C62995530900A85C6C /* JAngelExamenUpax */;
+			targetProxy = FB0699E82995530A00A85C6C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB0699D02995530900A85C6C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB0699D12995530900A85C6C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB0699D52995530900A85C6C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB0699D62995530900A85C6C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB0699EF2995530A00A85C6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB0699F02995530A00A85C6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB0699F22995530A00A85C6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JAngelExamenUpax/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.digis.JAngelExamenUpax;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB0699F32995530A00A85C6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JAngelExamenUpax/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.digis.JAngelExamenUpax;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FB0699F52995530A00A85C6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.digis.JAngelExamenUpaxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JAngelExamenUpax.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JAngelExamenUpax";
+			};
+			name = Debug;
+		};
+		FB0699F62995530A00A85C6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.digis.JAngelExamenUpaxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JAngelExamenUpax.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JAngelExamenUpax";
+			};
+			name = Release;
+		};
+		FB0699F82995530A00A85C6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.digis.JAngelExamenUpaxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JAngelExamenUpax;
+			};
+			name = Debug;
+		};
+		FB0699F92995530A00A85C6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.digis.JAngelExamenUpaxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JAngelExamenUpax;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB0699C22995530900A85C6C /* Build configuration list for PBXProject "JAngelExamenUpax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB0699EF2995530A00A85C6C /* Debug */,
+				FB0699F02995530A00A85C6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB0699F12995530A00A85C6C /* Build configuration list for PBXNativeTarget "JAngelExamenUpax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB0699F22995530A00A85C6C /* Debug */,
+				FB0699F32995530A00A85C6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB0699F42995530A00A85C6C /* Build configuration list for PBXNativeTarget "JAngelExamenUpaxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB0699F52995530A00A85C6C /* Debug */,
+				FB0699F62995530A00A85C6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB0699F72995530A00A85C6C /* Build configuration list for PBXNativeTarget "JAngelExamenUpaxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB0699F82995530A00A85C6C /* Debug */,
+				FB0699F92995530A00A85C6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB0699BF2995530900A85C6C /* Project object */;
+}
