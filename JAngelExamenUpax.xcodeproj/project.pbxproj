@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04A7B0314917DD81D945E718 /* Pods_JAngelExamenUpax.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C547C0E8ED749A83A5FA938E /* Pods_JAngelExamenUpax.framework */; };
+		06A3A46FA5CDB2A658C21EAC /* Pods_JAngelExamenUpax_JAngelExamenUpaxUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B6CDFC3711E130B3CCD1255 /* Pods_JAngelExamenUpax_JAngelExamenUpaxUITests.framework */; };
+		5B6B93711B02231ADE55FD5C /* Pods_JAngelExamenUpaxTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F93ED5E4836A72F2DCEACF80 /* Pods_JAngelExamenUpaxTests.framework */; };
 		FB0699CB2995530900A85C6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0699CA2995530900A85C6C /* AppDelegate.swift */; };
 		FB0699CD2995530900A85C6C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0699CC2995530900A85C6C /* SceneDelegate.swift */; };
 		FB0699D22995530900A85C6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB0699D02995530900A85C6C /* Main.storyboard */; };
@@ -15,13 +18,28 @@
 		FB0699E22995530A00A85C6C /* JAngelExamenUpaxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0699E12995530A00A85C6C /* JAngelExamenUpaxTests.swift */; };
 		FB0699EC2995530A00A85C6C /* JAngelExamenUpaxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0699EB2995530A00A85C6C /* JAngelExamenUpaxUITests.swift */; };
 		FB0699EE2995530A00A85C6C /* JAngelExamenUpaxUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0699ED2995530A00A85C6C /* JAngelExamenUpaxUITestsLaunchTests.swift */; };
-		FB069A01299575CA00A85C6C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB069A00299575CA00A85C6C /* ViewController.swift */; };
-		FB069A03299581C500A85C6C /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB069A02299581C500A85C6C /* ImageViewController.swift */; };
 		FB069A05299586B200A85C6C /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB069A04299586B200A85C6C /* data.swift */; };
 		FB069A072995878B00A85C6C /* ConsumoApiViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB069A062995878B00A85C6C /* ConsumoApiViewModel.swift */; };
 		FB3A19BD2996B5AB00548E11 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3A19BC2996B5AB00548E11 /* TableViewController.swift */; };
 		FB3A19C02996BB4B00548E11 /* CellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3A19BE2996BB4B00548E11 /* CellTableViewCell.swift */; };
+		FB65172D299C163100F777B7 /* ColorsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB65172C299C163100F777B7 /* ColorsViewModel.swift */; };
 		FBCA04762996BB6700C69A2E /* CellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBCA04752996BB6700C69A2E /* CellTableViewCell.xib */; };
+		FBD748C0299BF81A00FC9518 /* EnviarDatosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD748BF299BF81A00FC9518 /* EnviarDatosViewModel.swift */; };
+		FBD748C2299BFC6600FC9518 /* ColorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD748C1299BFC6600FC9518 /* ColorsViewController.swift */; };
+		FBEF5A09299AA8F300325824 /* CelltextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEF5A07299AA8F300325824 /* CelltextTableViewCell.swift */; };
+		FBEF5A0A299AA8F300325824 /* CelltextTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBEF5A08299AA8F300325824 /* CelltextTableViewCell.xib */; };
+		FBEF5A0D299AAC6400325824 /* CellGraficaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEF5A0B299AAC6400325824 /* CellGraficaTableViewCell.swift */; };
+		FBEF5A0E299AAC6400325824 /* CellGraficaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBEF5A0C299AAC6400325824 /* CellGraficaTableViewCell.xib */; };
+		FBEF5A10299AC6F000325824 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FBEF5A0F299AC6F000325824 /* GoogleService-Info.plist */; };
+		FBEF5A13299AC7C300325824 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = FBEF5A12299AC7C300325824 /* FirebaseAnalytics */; };
+		FBEF5A15299AC7C300325824 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = FBEF5A14299AC7C300325824 /* FirebaseAuth */; };
+		FBEF5A17299AC7C300325824 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = FBEF5A16299AC7C300325824 /* FirebaseCrashlytics */; };
+		FBEF5A19299AC7C300325824 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = FBEF5A18299AC7C300325824 /* FirebaseDatabase */; };
+		FBEF5A1B299AC7C300325824 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = FBEF5A1A299AC7C300325824 /* FirebaseDatabaseSwift */; };
+		FBEF5A1D299AC7C300325824 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = FBEF5A1C299AC7C300325824 /* FirebaseFirestore */; };
+		FBEF5A1F299AC7C300325824 /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = FBEF5A1E299AC7C300325824 /* FirebaseRemoteConfig */; };
+		FBEF5A21299AC7C300325824 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = FBEF5A20299AC7C300325824 /* FirebaseStorage */; };
+		FBEF5A24299AC7E400325824 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = FBEF5A23299AC7E400325824 /* FirebaseFirestoreSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +60,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A6F326C9921CD04FA44DD8D /* Pods-JAngelExamenUpax-JAngelExamenUpaxUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JAngelExamenUpax-JAngelExamenUpaxUITests.release.xcconfig"; path = "Target Support Files/Pods-JAngelExamenUpax-JAngelExamenUpaxUITests/Pods-JAngelExamenUpax-JAngelExamenUpaxUITests.release.xcconfig"; sourceTree = "<group>"; };
+		53276E20E32608DAC24CBA40 /* Pods-JAngelExamenUpaxTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JAngelExamenUpaxTests.debug.xcconfig"; path = "Target Support Files/Pods-JAngelExamenUpaxTests/Pods-JAngelExamenUpaxTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B6CDFC3711E130B3CCD1255 /* Pods_JAngelExamenUpax_JAngelExamenUpaxUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JAngelExamenUpax_JAngelExamenUpaxUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9803428F9202F3086602AC21 /* Pods-JAngelExamenUpax.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JAngelExamenUpax.debug.xcconfig"; path = "Target Support Files/Pods-JAngelExamenUpax/Pods-JAngelExamenUpax.debug.xcconfig"; sourceTree = "<group>"; };
+		ADC9A94AB96E1D3FBB3CEB18 /* Pods-JAngelExamenUpax.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JAngelExamenUpax.release.xcconfig"; path = "Target Support Files/Pods-JAngelExamenUpax/Pods-JAngelExamenUpax.release.xcconfig"; sourceTree = "<group>"; };
+		C41FB5394C6F552AA8E43760 /* Pods-JAngelExamenUpaxTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JAngelExamenUpaxTests.release.xcconfig"; path = "Target Support Files/Pods-JAngelExamenUpaxTests/Pods-JAngelExamenUpaxTests.release.xcconfig"; sourceTree = "<group>"; };
+		C547C0E8ED749A83A5FA938E /* Pods_JAngelExamenUpax.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JAngelExamenUpax.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDE59A5CDA02FD9BE977D7F /* Pods-JAngelExamenUpax-JAngelExamenUpaxUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JAngelExamenUpax-JAngelExamenUpaxUITests.debug.xcconfig"; path = "Target Support Files/Pods-JAngelExamenUpax-JAngelExamenUpaxUITests/Pods-JAngelExamenUpax-JAngelExamenUpaxUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F93ED5E4836A72F2DCEACF80 /* Pods_JAngelExamenUpaxTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JAngelExamenUpaxTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB0699C72995530900A85C6C /* JAngelExamenUpax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JAngelExamenUpax.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB0699CA2995530900A85C6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB0699CC2995530900A85C6C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -54,13 +81,19 @@
 		FB0699E72995530A00A85C6C /* JAngelExamenUpaxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JAngelExamenUpaxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB0699EB2995530A00A85C6C /* JAngelExamenUpaxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JAngelExamenUpaxUITests.swift; sourceTree = "<group>"; };
 		FB0699ED2995530A00A85C6C /* JAngelExamenUpaxUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JAngelExamenUpaxUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		FB069A00299575CA00A85C6C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FB069A02299581C500A85C6C /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		FB069A04299586B200A85C6C /* data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
 		FB069A062995878B00A85C6C /* ConsumoApiViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsumoApiViewModel.swift; sourceTree = "<group>"; };
 		FB3A19BC2996B5AB00548E11 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		FB3A19BE2996BB4B00548E11 /* CellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellTableViewCell.swift; sourceTree = "<group>"; };
+		FB65172C299C163100F777B7 /* ColorsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsViewModel.swift; sourceTree = "<group>"; };
 		FBCA04752996BB6700C69A2E /* CellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellTableViewCell.xib; sourceTree = "<group>"; };
+		FBD748BF299BF81A00FC9518 /* EnviarDatosViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnviarDatosViewModel.swift; sourceTree = "<group>"; };
+		FBD748C1299BFC6600FC9518 /* ColorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsViewController.swift; sourceTree = "<group>"; };
+		FBEF5A07299AA8F300325824 /* CelltextTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelltextTableViewCell.swift; sourceTree = "<group>"; };
+		FBEF5A08299AA8F300325824 /* CelltextTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CelltextTableViewCell.xib; sourceTree = "<group>"; };
+		FBEF5A0B299AAC6400325824 /* CellGraficaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellGraficaTableViewCell.swift; sourceTree = "<group>"; };
+		FBEF5A0C299AAC6400325824 /* CellGraficaTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellGraficaTableViewCell.xib; sourceTree = "<group>"; };
+		FBEF5A0F299AC6F000325824 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +101,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBEF5A1B299AC7C300325824 /* FirebaseDatabaseSwift in Frameworks */,
+				FBEF5A17299AC7C300325824 /* FirebaseCrashlytics in Frameworks */,
+				FBEF5A13299AC7C300325824 /* FirebaseAnalytics in Frameworks */,
+				FBEF5A1F299AC7C300325824 /* FirebaseRemoteConfig in Frameworks */,
+				FBEF5A19299AC7C300325824 /* FirebaseDatabase in Frameworks */,
+				FBEF5A21299AC7C300325824 /* FirebaseStorage in Frameworks */,
+				FBEF5A15299AC7C300325824 /* FirebaseAuth in Frameworks */,
+				FBEF5A1D299AC7C300325824 /* FirebaseFirestore in Frameworks */,
+				FBEF5A24299AC7E400325824 /* FirebaseFirestoreSwift in Frameworks */,
+				04A7B0314917DD81D945E718 /* Pods_JAngelExamenUpax.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B6B93711B02231ADE55FD5C /* Pods_JAngelExamenUpaxTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,12 +126,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06A3A46FA5CDB2A658C21EAC /* Pods_JAngelExamenUpax_JAngelExamenUpaxUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		337D0B11FA23DBB44404D149 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9803428F9202F3086602AC21 /* Pods-JAngelExamenUpax.debug.xcconfig */,
+				ADC9A94AB96E1D3FBB3CEB18 /* Pods-JAngelExamenUpax.release.xcconfig */,
+				CEDE59A5CDA02FD9BE977D7F /* Pods-JAngelExamenUpax-JAngelExamenUpaxUITests.debug.xcconfig */,
+				2A6F326C9921CD04FA44DD8D /* Pods-JAngelExamenUpax-JAngelExamenUpaxUITests.release.xcconfig */,
+				53276E20E32608DAC24CBA40 /* Pods-JAngelExamenUpaxTests.debug.xcconfig */,
+				C41FB5394C6F552AA8E43760 /* Pods-JAngelExamenUpaxTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		FB0699BE2995530900A85C6C = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +153,8 @@
 				FB0699E02995530A00A85C6C /* JAngelExamenUpaxTests */,
 				FB0699EA2995530A00A85C6C /* JAngelExamenUpaxUITests */,
 				FB0699C82995530900A85C6C /* Products */,
+				FBEF5A22299AC7E400325824 /* Frameworks */,
+				337D0B11FA23DBB44404D149 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -117,6 +177,7 @@
 				FB0699FA2995549300A85C6C /* View */,
 				FB0699D32995530900A85C6C /* Assets.xcassets */,
 				FB0699D82995530900A85C6C /* Info.plist */,
+				FBEF5A0F299AC6F000325824 /* GoogleService-Info.plist */,
 			);
 			path = JAngelExamenUpax;
 			sourceTree = "<group>";
@@ -144,6 +205,8 @@
 				FBCA04752996BB6700C69A2E /* CellTableViewCell.xib */,
 				FB0699D02995530900A85C6C /* Main.storyboard */,
 				FB0699D52995530900A85C6C /* LaunchScreen.storyboard */,
+				FBEF5A08299AA8F300325824 /* CelltextTableViewCell.xib */,
+				FBEF5A0C299AAC6400325824 /* CellGraficaTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -154,6 +217,8 @@
 				FB0699CA2995530900A85C6C /* AppDelegate.swift */,
 				FB0699CC2995530900A85C6C /* SceneDelegate.swift */,
 				FB069A062995878B00A85C6C /* ConsumoApiViewModel.swift */,
+				FBD748BF299BF81A00FC9518 /* EnviarDatosViewModel.swift */,
+				FB65172C299C163100F777B7 /* ColorsViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -169,12 +234,23 @@
 		FB0699FD299554B000A85C6C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				FB069A00299575CA00A85C6C /* ViewController.swift */,
-				FB069A02299581C500A85C6C /* ImageViewController.swift */,
 				FB3A19BC2996B5AB00548E11 /* TableViewController.swift */,
 				FB3A19BE2996BB4B00548E11 /* CellTableViewCell.swift */,
+				FBEF5A07299AA8F300325824 /* CelltextTableViewCell.swift */,
+				FBEF5A0B299AAC6400325824 /* CellGraficaTableViewCell.swift */,
+				FBD748C1299BFC6600FC9518 /* ColorsViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		FBEF5A22299AC7E400325824 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C547C0E8ED749A83A5FA938E /* Pods_JAngelExamenUpax.framework */,
+				7B6CDFC3711E130B3CCD1255 /* Pods_JAngelExamenUpax_JAngelExamenUpaxUITests.framework */,
+				F93ED5E4836A72F2DCEACF80 /* Pods_JAngelExamenUpaxTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,15 +260,28 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB0699F12995530A00A85C6C /* Build configuration list for PBXNativeTarget "JAngelExamenUpax" */;
 			buildPhases = (
+				F3D8AA855F71AC894BD7BEC9 /* [CP] Check Pods Manifest.lock */,
 				FB0699C32995530900A85C6C /* Sources */,
 				FB0699C42995530900A85C6C /* Frameworks */,
 				FB0699C52995530900A85C6C /* Resources */,
+				5143FD9579D2FAC7B5F2686F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = JAngelExamenUpax;
+			packageProductDependencies = (
+				FBEF5A12299AC7C300325824 /* FirebaseAnalytics */,
+				FBEF5A14299AC7C300325824 /* FirebaseAuth */,
+				FBEF5A16299AC7C300325824 /* FirebaseCrashlytics */,
+				FBEF5A18299AC7C300325824 /* FirebaseDatabase */,
+				FBEF5A1A299AC7C300325824 /* FirebaseDatabaseSwift */,
+				FBEF5A1C299AC7C300325824 /* FirebaseFirestore */,
+				FBEF5A1E299AC7C300325824 /* FirebaseRemoteConfig */,
+				FBEF5A20299AC7C300325824 /* FirebaseStorage */,
+				FBEF5A23299AC7E400325824 /* FirebaseFirestoreSwift */,
+			);
 			productName = JAngelExamenUpax;
 			productReference = FB0699C72995530900A85C6C /* JAngelExamenUpax.app */;
 			productType = "com.apple.product-type.application";
@@ -201,6 +290,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB0699F42995530A00A85C6C /* Build configuration list for PBXNativeTarget "JAngelExamenUpaxTests" */;
 			buildPhases = (
+				C03AD93D7D7DBAC6C22A9AAB /* [CP] Check Pods Manifest.lock */,
 				FB0699D92995530A00A85C6C /* Sources */,
 				FB0699DA2995530A00A85C6C /* Frameworks */,
 				FB0699DB2995530A00A85C6C /* Resources */,
@@ -219,9 +309,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB0699F72995530A00A85C6C /* Build configuration list for PBXNativeTarget "JAngelExamenUpaxUITests" */;
 			buildPhases = (
+				635A8246D84901933946FBCD /* [CP] Check Pods Manifest.lock */,
 				FB0699E32995530A00A85C6C /* Sources */,
 				FB0699E42995530A00A85C6C /* Frameworks */,
 				FB0699E52995530A00A85C6C /* Resources */,
+				EC99A6F2FF4DA5EE0AF5C5EF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -265,6 +357,9 @@
 				Base,
 			);
 			mainGroup = FB0699BE2995530900A85C6C;
+			packageReferences = (
+				FBEF5A11299AC7C300325824 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = FB0699C82995530900A85C6C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -285,6 +380,9 @@
 				FBCA04762996BB6700C69A2E /* CellTableViewCell.xib in Resources */,
 				FB0699D42995530900A85C6C /* Assets.xcassets in Resources */,
 				FB0699D22995530900A85C6C /* Main.storyboard in Resources */,
+				FBEF5A0A299AA8F300325824 /* CelltextTableViewCell.xib in Resources */,
+				FBEF5A0E299AAC6400325824 /* CellGraficaTableViewCell.xib in Resources */,
+				FBEF5A10299AC6F000325824 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,19 +402,125 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5143FD9579D2FAC7B5F2686F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JAngelExamenUpax/Pods-JAngelExamenUpax-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JAngelExamenUpax/Pods-JAngelExamenUpax-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JAngelExamenUpax/Pods-JAngelExamenUpax-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		635A8246D84901933946FBCD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JAngelExamenUpax-JAngelExamenUpaxUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C03AD93D7D7DBAC6C22A9AAB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JAngelExamenUpaxTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC99A6F2FF4DA5EE0AF5C5EF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JAngelExamenUpax-JAngelExamenUpaxUITests/Pods-JAngelExamenUpax-JAngelExamenUpaxUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JAngelExamenUpax-JAngelExamenUpaxUITests/Pods-JAngelExamenUpax-JAngelExamenUpaxUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JAngelExamenUpax-JAngelExamenUpaxUITests/Pods-JAngelExamenUpax-JAngelExamenUpaxUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3D8AA855F71AC894BD7BEC9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JAngelExamenUpax-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FB0699C32995530900A85C6C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBD748C2299BFC6600FC9518 /* ColorsViewController.swift in Sources */,
 				FB069A05299586B200A85C6C /* data.swift in Sources */,
+				FBEF5A0D299AAC6400325824 /* CellGraficaTableViewCell.swift in Sources */,
 				FB3A19BD2996B5AB00548E11 /* TableViewController.swift in Sources */,
 				FB0699CB2995530900A85C6C /* AppDelegate.swift in Sources */,
 				FB069A072995878B00A85C6C /* ConsumoApiViewModel.swift in Sources */,
-				FB069A03299581C500A85C6C /* ImageViewController.swift in Sources */,
+				FB65172D299C163100F777B7 /* ColorsViewModel.swift in Sources */,
+				FBEF5A09299AA8F300325824 /* CelltextTableViewCell.swift in Sources */,
 				FB3A19C02996BB4B00548E11 /* CellTableViewCell.swift in Sources */,
-				FB069A01299575CA00A85C6C /* ViewController.swift in Sources */,
 				FB0699CD2995530900A85C6C /* SceneDelegate.swift in Sources */,
+				FBD748C0299BF81A00FC9518 /* EnviarDatosViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,6 +692,7 @@
 		};
 		FB0699F22995530A00A85C6C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9803428F9202F3086602AC21 /* Pods-JAngelExamenUpax.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -515,6 +720,7 @@
 		};
 		FB0699F32995530A00A85C6C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADC9A94AB96E1D3FBB3CEB18 /* Pods-JAngelExamenUpax.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -542,6 +748,7 @@
 		};
 		FB0699F52995530A00A85C6C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53276E20E32608DAC24CBA40 /* Pods-JAngelExamenUpaxTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -561,6 +768,7 @@
 		};
 		FB0699F62995530A00A85C6C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C41FB5394C6F552AA8E43760 /* Pods-JAngelExamenUpaxTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -580,6 +788,7 @@
 		};
 		FB0699F82995530A00A85C6C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEDE59A5CDA02FD9BE977D7F /* Pods-JAngelExamenUpax-JAngelExamenUpaxUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -597,6 +806,7 @@
 		};
 		FB0699F92995530A00A85C6C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A6F326C9921CD04FA44DD8D /* Pods-JAngelExamenUpax-JAngelExamenUpaxUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -652,6 +862,65 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FBEF5A11299AC7C300325824 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FBEF5A12299AC7C300325824 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FBEF5A11299AC7C300325824 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		FBEF5A14299AC7C300325824 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FBEF5A11299AC7C300325824 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		FBEF5A16299AC7C300325824 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FBEF5A11299AC7C300325824 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		FBEF5A18299AC7C300325824 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FBEF5A11299AC7C300325824 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		FBEF5A1A299AC7C300325824 /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FBEF5A11299AC7C300325824 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		FBEF5A1C299AC7C300325824 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FBEF5A11299AC7C300325824 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		FBEF5A1E299AC7C300325824 /* FirebaseRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FBEF5A11299AC7C300325824 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfig;
+		};
+		FBEF5A20299AC7C300325824 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FBEF5A11299AC7C300325824 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		FBEF5A23299AC7E400325824 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FBEF5A11299AC7C300325824 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FB0699BF2995530900A85C6C /* Project object */;
 }

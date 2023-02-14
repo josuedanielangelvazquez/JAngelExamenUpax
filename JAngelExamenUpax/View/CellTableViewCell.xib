@@ -4,7 +4,6 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -20,23 +19,13 @@
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1ac-zi-Puc">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="138"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="KV2-8Y-sN6">
-                                <rect key="frame" x="97" y="5" width="133" height="128"/>
-                                <color key="backgroundColor" systemColor="tintColor"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="KV2-8Y-sN6">
+                                <rect key="frame" x="97" y="6.9999999999999929" width="133" height="124.66666666666663"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="133" id="SKh-0F-Z8X"/>
                                     <constraint firstAttribute="height" constant="128" id="tp9-Yq-AFr"/>
                                 </constraints>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="z53-fa-grv">
-                                <rect key="frame" x="26" y="52" width="273" height="34"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="273" id="2Zk-To-92f"/>
-                                    <constraint firstAttribute="height" constant="34" id="NBP-dT-low"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hvV-Ed-bTd">
                                 <rect key="frame" x="183" y="98" width="56" height="35"/>
                                 <constraints>
@@ -48,18 +37,13 @@
                                 <buttonConfiguration key="configuration" style="plain" image="camera.fill" catalog="system"/>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="hvV-Ed-bTd" secondAttribute="bottom" constant="5" id="1qC-rZ-UuC"/>
                             <constraint firstAttribute="trailing" secondItem="KV2-8Y-sN6" secondAttribute="trailing" constant="90" id="6xG-Wa-wrZ"/>
                             <constraint firstItem="KV2-8Y-sN6" firstAttribute="leading" secondItem="1ac-zi-Puc" secondAttribute="leading" constant="97" id="JZ3-As-Lh0"/>
                             <constraint firstAttribute="bottom" secondItem="KV2-8Y-sN6" secondAttribute="bottom" constant="5" id="LYY-4L-qwr"/>
-                            <constraint firstItem="z53-fa-grv" firstAttribute="leading" secondItem="1ac-zi-Puc" secondAttribute="leading" constant="26" id="Sji-Vh-VKf"/>
-                            <constraint firstAttribute="trailing" secondItem="z53-fa-grv" secondAttribute="trailing" constant="21" id="T5t-Wd-n5N"/>
-                            <constraint firstItem="hvV-Ed-bTd" firstAttribute="top" secondItem="z53-fa-grv" secondAttribute="bottom" constant="12" id="bue-5u-XCG"/>
                             <constraint firstItem="KV2-8Y-sN6" firstAttribute="top" secondItem="1ac-zi-Puc" secondAttribute="top" constant="5" id="gL4-xK-W8l"/>
                             <constraint firstAttribute="trailing" secondItem="hvV-Ed-bTd" secondAttribute="trailing" constant="81" id="gXW-yd-wEP"/>
-                            <constraint firstItem="z53-fa-grv" firstAttribute="top" secondItem="1ac-zi-Puc" secondAttribute="top" constant="52" id="lxT-W1-qqj"/>
                             <constraint firstItem="hvV-Ed-bTd" firstAttribute="leading" secondItem="1ac-zi-Puc" secondAttribute="leading" constant="183" id="oOx-5G-QLk"/>
                             <constraint firstAttribute="bottom" secondItem="hvV-Ed-bTd" secondAttribute="bottom" constant="5" id="ptI-rC-W0y"/>
                         </constraints>
@@ -74,7 +58,6 @@
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
-                <outlet property="nombretext" destination="z53-fa-grv" id="gSV-TE-P02"/>
                 <outlet property="perfilbutton" destination="hvV-Ed-bTd" id="FuC-q2-Q10"/>
                 <outlet property="perfilimage" destination="KV2-8Y-sN6" id="UY8-B4-GMJ"/>
             </connections>
@@ -83,11 +66,6 @@
     </objects>
     <resources>
         <image name="camera.fill" catalog="system" width="128" height="93"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="tintColor">
-            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
+        <image name="person.fill" catalog="system" width="128" height="120"/>
     </resources>
 </document>

@@ -23,7 +23,7 @@ class CellTableViewCell: UITableViewCell {
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-        if posicion == 0{
+   /*     if posicion == 0{
             nombretext.isHidden = true
         }
         if posicion == 1{
@@ -40,7 +40,7 @@ class CellTableViewCell: UITableViewCell {
             nombretext.isHidden = false
             perfilimage.isHidden = false
             perfilbutton.isHidden = true
-        }
+        }*/
     }
 
    
