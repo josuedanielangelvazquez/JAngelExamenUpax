@@ -13,7 +13,7 @@ class GraficaTableViewCell: UITableViewCell {
     
     @IBOutlet weak var Preguntalbl: UILabel!
     var sivalor = 0
-    var Novalor = 0
+    var novalor = 0
     
     let consumoapiviewmodel = ConsumoApiViewModel()
    
@@ -32,19 +32,22 @@ class GraficaTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
     func updateChartData(){
-        var si = PieChartDataEntry(value: Double(sivalor))
-        var no = PieChartDataEntry(value: Double(Novalor))
-        grafica.chartDescription.text = ""
-        sucursalLimpia = [no, si]
-        si.label = "Si \(sivalor)%"
-        no.label = "No \(Novalor)%"
-        let chartDataSet = PieChartDataSet(entries: sucursalLimpia, label: "")
+        DispatchQueue.main.async { [self] in
+            var si = PieChartDataEntry(value: Double(sivalor))
+            var no = PieChartDataEntry(value: Double(novalor))
+            grafica.chartDescription.text = ""
+            sucursalLimpia = [no, si]
+            si.label = "Si \(sivalor)%"
+            no.label = "No \(novalor)%"
+            let chartDataSet = PieChartDataSet(entries: sucursalLimpia, label: "")
 
-        let chartData = PieChartData(dataSet: chartDataSet)
-        
-        let colors = [UIColor(named: "no"), UIColor(named: "si")]
-            chartDataSet.colors = colors as! [NSUIColor]
-        grafica.data = chartData
+            let chartData = PieChartData(dataSet: chartDataSet)
+            
+            let colors = [UIColor(named: "no"), UIColor(named: "si")]
+                chartDataSet.colors = colors as! [NSUIColor]
+            grafica.data = chartData
+        }
+       
     }
     
 }
