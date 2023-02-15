@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="uub-x1-HIV">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="elU-2E-eDo">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
@@ -12,19 +12,19 @@
         <scene sceneID="8d7-h1-pY2">
             <objects>
                 <viewController id="eu7-u8-WUE" customClass="TableViewController" customModule="JAngelExamenUpax" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="mnK-9o-FGr">
+                    <view key="view" contentMode="scaleToFill" id="mnK-9o-FGr">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="2kU-t0-kas">
-                                <rect key="frame" x="0.0" y="106" width="390" height="434"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="2kU-t0-kas">
+                                <rect key="frame" x="0.0" y="150" width="390" height="390"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="390" id="kIL-zK-21x"/>
                                     <constraint firstAttribute="height" constant="434" id="qa7-mc-dem"/>
                                 </constraints>
                             </tableView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s5g-lQ-gAy">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s5g-lQ-gAy">
                                 <rect key="frame" x="122" y="649" width="146" height="55"/>
                                 <color key="backgroundColor" systemColor="linkColor"/>
                                 <constraints>
@@ -39,7 +39,7 @@
                                     <action selector="enviaraction:" destination="eu7-u8-WUE" eventType="touchUpInside" id="VxF-hO-Uok"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bcB-zf-u2o">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bcB-zf-u2o">
                                 <rect key="frame" x="174" y="649" width="69" height="55"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="69" id="Plf-Pm-Gny"/>
@@ -65,7 +65,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="Ebk-55-kYi">
                         <barButtonItem key="rightBarButtonItem" style="plain" id="hzq-YP-zYM">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="yW6-Re-HqQ">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="yW6-Re-HqQ">
                                 <rect key="frame" x="288" y="5" width="86" height="34.333333333333336"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
@@ -79,11 +79,41 @@
                     <connections>
                         <outlet property="TableView" destination="2kU-t0-kas" id="ZXP-nP-qGV"/>
                         <outlet property="perfilimage2" destination="bcB-zf-u2o" id="hYq-QX-gV7"/>
+                        <segue destination="elU-2E-eDo" kind="show" identifier="seguesgrafica4" id="0EP-Gj-mg9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0cD-Ed-u4e" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1560" y="-473.45971563981038"/>
+        </scene>
+        <!--Grafica Table View Controller-->
+        <scene sceneID="2gH-a8-jkt">
+            <objects>
+                <tableViewController id="elU-2E-eDo" customClass="GraficaTableViewController" customModule="JAngelExamenUpax" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="LA6-Qm-meO">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="sbY-Gq-6ci">
+                                <rect key="frame" x="0.0" y="50" width="390" height="43.666667938232422"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="sbY-Gq-6ci" id="z3h-xK-i6g">
+                                    <rect key="frame" x="0.0" y="0.0" width="390" height="43.666667938232422"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="elU-2E-eDo" id="cRq-PU-Ggg"/>
+                            <outlet property="delegate" destination="elU-2E-eDo" id="gZZ-7o-Bsh"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="WXF-18-KOq"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vgR-1G-DwO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2614" y="-1181"/>
         </scene>
         <!--Colors View Controller-->
         <scene sceneID="Zen-xg-Mg0">

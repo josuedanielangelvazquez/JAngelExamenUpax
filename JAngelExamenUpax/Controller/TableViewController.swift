@@ -63,8 +63,20 @@ class TableViewController: UIViewController, UITableViewDelegate, UITableViewDat
             return cell}
      
         else{
-            let cell = TableView.dequeueReusableCell(withIdentifier: "GraficaCell", for: indexPath as IndexPath)
+            let cell = TableView.dequeueReusableCell(withIdentifier: "GraficaCell", for: indexPath as IndexPath) as! CellGraficaTableViewCell
+            
+            
             return cell
+            
+        }
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if indexPath.row == 2{
+            self.performSegue(withIdentifier: "seguesgrafica", sender: nil)
+        }
+        else{
+            print("otra accion")
         }
     }
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
@@ -74,6 +86,7 @@ class TableViewController: UIViewController, UITableViewDelegate, UITableViewDat
                         dismiss(animated: true, completion: nil)
 
                     }
+
     
     @objc func addImage(_sender:UIButton){
         self.present(imagepicker, animated: true)

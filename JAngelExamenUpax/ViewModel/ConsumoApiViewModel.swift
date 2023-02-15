@@ -7,12 +7,13 @@
 
 import Foundation
 class ConsumoApiViewModel{
-    func getApi(){
+    func getApi(datos : @escaping(dataApi)->Void){
         let urlsession = URLSession.shared
         let url = URL(string: "https://s3.amazonaws.com/dev.reports.files/test.json")
         urlsession.dataTask(with: url!){ data, response, error in
             if let safeData = data{
                 let json = self.parseJSON(data: safeData)
+                datos(json!)
             }
             else{
                 print(error?.localizedDescription)

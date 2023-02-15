@@ -26,6 +26,9 @@
 		FBCA04762996BB6700C69A2E /* CellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBCA04752996BB6700C69A2E /* CellTableViewCell.xib */; };
 		FBD748C0299BF81A00FC9518 /* EnviarDatosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD748BF299BF81A00FC9518 /* EnviarDatosViewModel.swift */; };
 		FBD748C2299BFC6600FC9518 /* ColorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD748C1299BFC6600FC9518 /* ColorsViewController.swift */; };
+		FBE37BB5299D5CCB00D089C2 /* GraficaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE37BB4299D5CCB00D089C2 /* GraficaTableViewController.swift */; };
+		FBE37BB8299D5D0300D089C2 /* GraficaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE37BB6299D5D0300D089C2 /* GraficaTableViewCell.swift */; };
+		FBE37BB9299D5D0300D089C2 /* GraficaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBE37BB7299D5D0300D089C2 /* GraficaTableViewCell.xib */; };
 		FBEF5A09299AA8F300325824 /* CelltextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEF5A07299AA8F300325824 /* CelltextTableViewCell.swift */; };
 		FBEF5A0A299AA8F300325824 /* CelltextTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBEF5A08299AA8F300325824 /* CelltextTableViewCell.xib */; };
 		FBEF5A0D299AAC6400325824 /* CellGraficaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEF5A0B299AAC6400325824 /* CellGraficaTableViewCell.swift */; };
@@ -89,6 +92,9 @@
 		FBCA04752996BB6700C69A2E /* CellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellTableViewCell.xib; sourceTree = "<group>"; };
 		FBD748BF299BF81A00FC9518 /* EnviarDatosViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnviarDatosViewModel.swift; sourceTree = "<group>"; };
 		FBD748C1299BFC6600FC9518 /* ColorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsViewController.swift; sourceTree = "<group>"; };
+		FBE37BB4299D5CCB00D089C2 /* GraficaTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraficaTableViewController.swift; sourceTree = "<group>"; };
+		FBE37BB6299D5D0300D089C2 /* GraficaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraficaTableViewCell.swift; sourceTree = "<group>"; };
+		FBE37BB7299D5D0300D089C2 /* GraficaTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GraficaTableViewCell.xib; sourceTree = "<group>"; };
 		FBEF5A07299AA8F300325824 /* CelltextTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelltextTableViewCell.swift; sourceTree = "<group>"; };
 		FBEF5A08299AA8F300325824 /* CelltextTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CelltextTableViewCell.xib; sourceTree = "<group>"; };
 		FBEF5A0B299AAC6400325824 /* CellGraficaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellGraficaTableViewCell.swift; sourceTree = "<group>"; };
@@ -207,6 +213,7 @@
 				FB0699D52995530900A85C6C /* LaunchScreen.storyboard */,
 				FBEF5A08299AA8F300325824 /* CelltextTableViewCell.xib */,
 				FBEF5A0C299AAC6400325824 /* CellGraficaTableViewCell.xib */,
+				FBE37BB7299D5D0300D089C2 /* GraficaTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -239,6 +246,8 @@
 				FBEF5A07299AA8F300325824 /* CelltextTableViewCell.swift */,
 				FBEF5A0B299AAC6400325824 /* CellGraficaTableViewCell.swift */,
 				FBD748C1299BFC6600FC9518 /* ColorsViewController.swift */,
+				FBE37BB4299D5CCB00D089C2 /* GraficaTableViewController.swift */,
+				FBE37BB6299D5D0300D089C2 /* GraficaTableViewCell.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -377,6 +386,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB0699D72995530900A85C6C /* LaunchScreen.storyboard in Resources */,
+				FBE37BB9299D5D0300D089C2 /* GraficaTableViewCell.xib in Resources */,
 				FBCA04762996BB6700C69A2E /* CellTableViewCell.xib in Resources */,
 				FB0699D42995530900A85C6C /* Assets.xcassets in Resources */,
 				FB0699D22995530900A85C6C /* Main.storyboard in Resources */,
@@ -511,11 +521,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBD748C2299BFC6600FC9518 /* ColorsViewController.swift in Sources */,
+				FBE37BB8299D5D0300D089C2 /* GraficaTableViewCell.swift in Sources */,
 				FB069A05299586B200A85C6C /* data.swift in Sources */,
 				FBEF5A0D299AAC6400325824 /* CellGraficaTableViewCell.swift in Sources */,
 				FB3A19BD2996B5AB00548E11 /* TableViewController.swift in Sources */,
 				FB0699CB2995530900A85C6C /* AppDelegate.swift in Sources */,
 				FB069A072995878B00A85C6C /* ConsumoApiViewModel.swift in Sources */,
+				FBE37BB5299D5CCB00D089C2 /* GraficaTableViewController.swift in Sources */,
 				FB65172D299C163100F777B7 /* ColorsViewModel.swift in Sources */,
 				FBEF5A09299AA8F300325824 /* CelltextTableViewCell.swift in Sources */,
 				FB3A19C02996BB4B00548E11 /* CellTableViewCell.swift in Sources */,
