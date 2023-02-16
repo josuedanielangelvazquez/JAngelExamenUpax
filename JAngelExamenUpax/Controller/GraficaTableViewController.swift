@@ -47,8 +47,9 @@ class GraficaTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "graficacell", for: indexPath as IndexPath) as! GraficaTableViewCell
         cell.Preguntalbl.text = Informacion[indexPath.row].pregunta
-        cell.sivalor = Informacion[indexPath.row].values[0].value
-        cell.novalor = Informacion[indexPath.row].values[1].value
+      /*  cell.sivalor = Informacion[indexPath.row].values[0].value
+        cell.novalor = Informacion[indexPath.row].values[1].value*/
+        cell.values = Informacion[indexPath.row].values
         
 
         // Configure the cell...
