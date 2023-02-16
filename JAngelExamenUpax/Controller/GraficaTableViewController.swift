@@ -46,15 +46,47 @@ class GraficaTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "graficacell", for: indexPath as IndexPath) as! GraficaTableViewCell
-        cell.Preguntalbl.text = Informacion[indexPath.row].pregunta
-      /*  cell.sivalor = Informacion[indexPath.row].values[0].value
-        cell.novalor = Informacion[indexPath.row].values[1].value*/
-        cell.values = Informacion[indexPath.row].values
-        
-
-        // Configure the cell...
-
+        let posicion = indexPath.row
+        if posicion == 0{
+            cell.Preguntalbl.text = Informacion[indexPath.row].pregunta
+            cell.sivalor = Informacion[indexPath.row].values[0].value
+            cell.novalor = Informacion[indexPath.row].values[1].value
+            //  cell.values = Informacion[indexPath.row].values
+            cell.posicion = posicion
+           }
+        if posicion == 1{
+            cell.Preguntalbl.text = Informacion[indexPath.row].pregunta
+            cell.Elektravalor = Informacion[indexPath.row].values[0].value
+            cell.BancoAztecavalor = Informacion[indexPath.row].values[1].value
+            cell.Netovalor = Informacion[indexPath.row].values[2].value
+            cell.Upaxvalor = Informacion[indexPath.row].values[3].value
+            cell.Dragonvalor = Informacion[indexPath.row].values[4].value
+            cell.Otrovalor = Informacion[indexPath.row].values[5].value
+            cell.posicion = posicion
+        }
+        if posicion == 2{
+            cell.Preguntalbl.text = Informacion[indexPath.row].pregunta
+            cell.sivalor = Informacion[indexPath.row].values[0].value
+            cell.novalor = Informacion[indexPath.row].values[1].value
+            cell.talvezvalor = Informacion[indexPath.row].values[2].value
+            cell.Upaxvalor = Informacion[indexPath.row].values[3].value
+            cell.Dragonvalor = Informacion[indexPath.row].values[4].value
+            cell.Otrovalor = Informacion[indexPath.row].values[5].value
+            cell.posicion = posicion
+            
+        }
+        if posicion == 3{
+            cell.Preguntalbl.text = Informacion[indexPath.row].pregunta
+            cell.Elektravalor = Informacion[indexPath.row].values[0].value
+            cell.BancoAztecavalor = Informacion[indexPath.row].values[1].value
+            cell.Netovalor = Informacion[indexPath.row].values[2].value
+            cell.Upaxvalor = Informacion[indexPath.row].values[3].value
+            cell.Dragonvalor = Informacion[indexPath.row].values[4].value
+            cell.Italikavalor = Informacion[indexPath.row].values[5].value
+            cell.posicion = posicion
+        }
         return cell
+        
     }
     
 

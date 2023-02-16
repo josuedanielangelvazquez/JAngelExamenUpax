@@ -79,7 +79,7 @@
                     <connections>
                         <outlet property="TableView" destination="2kU-t0-kas" id="ZXP-nP-qGV"/>
                         <outlet property="perfilimage2" destination="bcB-zf-u2o" id="hYq-QX-gV7"/>
-                        <segue destination="elU-2E-eDo" kind="show" identifier="seguesgrafica4" id="0EP-Gj-mg9"/>
+                        <segue destination="elU-2E-eDo" kind="show" identifier="seguesgrafica" id="0EP-Gj-mg9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0cD-Ed-u4e" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
